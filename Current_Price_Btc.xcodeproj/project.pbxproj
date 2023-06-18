@@ -17,6 +17,11 @@
 		DA00F99C2A3EFB7400BCEB94 /* Current_Price_BtcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA00F99B2A3EFB7400BCEB94 /* Current_Price_BtcTests.swift */; };
 		DA00F9A62A3EFB7400BCEB94 /* Current_Price_BtcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA00F9A52A3EFB7400BCEB94 /* Current_Price_BtcUITests.swift */; };
 		DA00F9A82A3EFB7400BCEB94 /* Current_Price_BtcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA00F9A72A3EFB7400BCEB94 /* Current_Price_BtcUITestsLaunchTests.swift */; };
+		DA0D21B62A3F000800A90AA8 /* ViewControllerLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0D21B52A3F000800A90AA8 /* ViewControllerLayout.swift */; };
+		DA0D21B82A3F003700A90AA8 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0D21B72A3F003700A90AA8 /* UIViewControllerExtension.swift */; };
+		DA0D21BA2A3F005100A90AA8 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0D21B92A3F005100A90AA8 /* UITextFieldExtension.swift */; };
+		DA0D21BC2A3F006300A90AA8 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0D21BB2A3F006300A90AA8 /* UIColorExtension.swift */; };
+		DA0D21BE2A3F007900A90AA8 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0D21BD2A3F007900A90AA8 /* UIViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		DA00F9A12A3EFB7400BCEB94 /* Current_Price_BtcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Current_Price_BtcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA00F9A52A3EFB7400BCEB94 /* Current_Price_BtcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Current_Price_BtcUITests.swift; sourceTree = "<group>"; };
 		DA00F9A72A3EFB7400BCEB94 /* Current_Price_BtcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Current_Price_BtcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DA0D21B52A3F000800A90AA8 /* ViewControllerLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLayout.swift; sourceTree = "<group>"; };
+		DA0D21B72A3F003700A90AA8 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		DA0D21B92A3F005100A90AA8 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
+		DA0D21BB2A3F006300A90AA8 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		DA0D21BD2A3F007900A90AA8 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +105,6 @@
 				0EEAE7C30B49916DF0A59D46 /* Pods-Current_Price_Btc.debug.xcconfig */,
 				45AEE448FE56056DBE789482 /* Pods-Current_Price_Btc.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -124,9 +133,14 @@
 		DA00F9832A3EFB7000BCEB94 /* Current_Price_Btc */ = {
 			isa = PBXGroup;
 			children = (
+				DA0D21AD2A3EFF8600A90AA8 /* Connection */,
+				DA0D21AE2A3EFF9100A90AA8 /* Layout */,
+				DA0D21AF2A3EFF9800A90AA8 /* Controller */,
+				DA0D21B02A3EFFA300A90AA8 /* Model */,
+				DA0D21B12A3EFFA900A90AA8 /* Cell */,
+				DA0D21B22A3EFFAD00A90AA8 /* Extension */,
 				DA00F9842A3EFB7000BCEB94 /* AppDelegate.swift */,
 				DA00F9862A3EFB7000BCEB94 /* SceneDelegate.swift */,
-				DA00F9882A3EFB7000BCEB94 /* ViewController.swift */,
 				DA00F98A2A3EFB7100BCEB94 /* Main.storyboard */,
 				DA00F98D2A3EFB7300BCEB94 /* Assets.xcassets */,
 				DA00F98F2A3EFB7300BCEB94 /* LaunchScreen.storyboard */,
@@ -150,6 +164,54 @@
 				DA00F9A72A3EFB7400BCEB94 /* Current_Price_BtcUITestsLaunchTests.swift */,
 			);
 			path = Current_Price_BtcUITests;
+			sourceTree = "<group>";
+		};
+		DA0D21AD2A3EFF8600A90AA8 /* Connection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Connection;
+			sourceTree = "<group>";
+		};
+		DA0D21AE2A3EFF9100A90AA8 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				DA0D21B52A3F000800A90AA8 /* ViewControllerLayout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		DA0D21AF2A3EFF9800A90AA8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA00F9882A3EFB7000BCEB94 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DA0D21B02A3EFFA300A90AA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA0D21B12A3EFFA900A90AA8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DA0D21B22A3EFFAD00A90AA8 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DA0D21B72A3F003700A90AA8 /* UIViewControllerExtension.swift */,
+				DA0D21B92A3F005100A90AA8 /* UITextFieldExtension.swift */,
+				DA0D21BB2A3F006300A90AA8 /* UIColorExtension.swift */,
+				DA0D21BD2A3F007900A90AA8 /* UIViewExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,7 +390,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA00F9892A3EFB7000BCEB94 /* ViewController.swift in Sources */,
+				DA0D21BC2A3F006300A90AA8 /* UIColorExtension.swift in Sources */,
+				DA0D21BA2A3F005100A90AA8 /* UITextFieldExtension.swift in Sources */,
 				DA00F9852A3EFB7000BCEB94 /* AppDelegate.swift in Sources */,
+				DA0D21B82A3F003700A90AA8 /* UIViewControllerExtension.swift in Sources */,
+				DA0D21B62A3F000800A90AA8 /* ViewControllerLayout.swift in Sources */,
+				DA0D21BE2A3F007900A90AA8 /* UIViewExtension.swift in Sources */,
 				DA00F9872A3EFB7000BCEB94 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
