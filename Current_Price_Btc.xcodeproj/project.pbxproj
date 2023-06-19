@@ -22,6 +22,11 @@
 		DA0D21BA2A3F005100A90AA8 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0D21B92A3F005100A90AA8 /* UITextFieldExtension.swift */; };
 		DA0D21BC2A3F006300A90AA8 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0D21BB2A3F006300A90AA8 /* UIColorExtension.swift */; };
 		DA0D21BE2A3F007900A90AA8 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0D21BD2A3F007900A90AA8 /* UIViewExtension.swift */; };
+		DA697BF92A40A5BB005AD023 /* ListCoinTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA697BF82A40A5BB005AD023 /* ListCoinTableViewCell.swift */; };
+		DA697BFB2A40A660005AD023 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA697BFA2A40A660005AD023 /* Connection.swift */; };
+		DA697BFD2A40A6CE005AD023 /* CurrentPriceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA697BFC2A40A6CE005AD023 /* CurrentPriceModel.swift */; };
+		DA697BFF2A40BC89005AD023 /* HistoryLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA697BFE2A40BC89005AD023 /* HistoryLayout.swift */; };
+		DA697C012A40BC99005AD023 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA697C002A40BC99005AD023 /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +68,11 @@
 		DA0D21B92A3F005100A90AA8 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 		DA0D21BB2A3F006300A90AA8 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DA0D21BD2A3F007900A90AA8 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		DA697BF82A40A5BB005AD023 /* ListCoinTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoinTableViewCell.swift; sourceTree = "<group>"; };
+		DA697BFA2A40A660005AD023 /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		DA697BFC2A40A6CE005AD023 /* CurrentPriceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPriceModel.swift; sourceTree = "<group>"; };
+		DA697BFE2A40BC89005AD023 /* HistoryLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryLayout.swift; sourceTree = "<group>"; };
+		DA697C002A40BC99005AD023 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +179,7 @@
 		DA0D21AD2A3EFF8600A90AA8 /* Connection */ = {
 			isa = PBXGroup;
 			children = (
+				DA697BFA2A40A660005AD023 /* Connection.swift */,
 			);
 			path = Connection;
 			sourceTree = "<group>";
@@ -177,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				DA0D21B52A3F000800A90AA8 /* ViewControllerLayout.swift */,
+				DA697BFE2A40BC89005AD023 /* HistoryLayout.swift */,
 			);
 			path = Layout;
 			sourceTree = "<group>";
@@ -185,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				DA00F9882A3EFB7000BCEB94 /* ViewController.swift */,
+				DA697C002A40BC99005AD023 /* HistoryViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -192,6 +205,7 @@
 		DA0D21B02A3EFFA300A90AA8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DA697BFC2A40A6CE005AD023 /* CurrentPriceModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -199,6 +213,7 @@
 		DA0D21B12A3EFFA900A90AA8 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				DA697BF82A40A5BB005AD023 /* ListCoinTableViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -393,8 +408,13 @@
 				DA0D21BC2A3F006300A90AA8 /* UIColorExtension.swift in Sources */,
 				DA0D21BA2A3F005100A90AA8 /* UITextFieldExtension.swift in Sources */,
 				DA00F9852A3EFB7000BCEB94 /* AppDelegate.swift in Sources */,
+				DA697C012A40BC99005AD023 /* HistoryViewController.swift in Sources */,
 				DA0D21B82A3F003700A90AA8 /* UIViewControllerExtension.swift in Sources */,
 				DA0D21B62A3F000800A90AA8 /* ViewControllerLayout.swift in Sources */,
+				DA697BFF2A40BC89005AD023 /* HistoryLayout.swift in Sources */,
+				DA697BF92A40A5BB005AD023 /* ListCoinTableViewCell.swift in Sources */,
+				DA697BFD2A40A6CE005AD023 /* CurrentPriceModel.swift in Sources */,
+				DA697BFB2A40A660005AD023 /* Connection.swift in Sources */,
 				DA0D21BE2A3F007900A90AA8 /* UIViewExtension.swift in Sources */,
 				DA00F9872A3EFB7000BCEB94 /* SceneDelegate.swift in Sources */,
 			);
